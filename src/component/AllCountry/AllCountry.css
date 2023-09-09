@@ -1,0 +1,11 @@
+.countrySize{
+    text-align: center;
+    font-size: 15px;
+    font: bold;
+    text-transform: uppercase;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
