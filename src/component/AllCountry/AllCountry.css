@@ -9,3 +9,19 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+.visitedCountry{
+    border: 1px solid tomato;
+    padding: 30px;
+    margin: 20px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.countrySizeRecent{
+    text-align: center;
+    font-size: 25px;
+    font: bold;
+    text-transform: uppercase;
+}

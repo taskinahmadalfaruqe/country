@@ -1,6 +1,6 @@
 .cardDesign{
-    border: 1px solid #eee;
-    background: #1e1e1e;
+    border: 1px solid purple;
+    background: rgba(128, 0, 128, 0.1);
     border-radius: 7px;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
@@ -28,4 +28,27 @@
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+}
+.btn{
+    padding: 10px 20px;
+    border: 1px solid tomato;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.btn:hover{
+    background-color: tomato;
+    color: white;
+}
+.visited{
+    background-color: tomato;
+    color: white;
+}
+.visitedBG{
+    background: rgba(128, 0, 128, 0.3);
 }
